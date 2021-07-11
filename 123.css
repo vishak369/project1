@@ -573,3 +573,19 @@ blockquote footer {
 blockquote cite:before {
   content: "\2013";
 }
+
+.callus{
+    position: fixed;
+    bottom: 10px;
+    left: 8px;
+    width: 43px;
+    height: 40px;
+    background: #ffbb13;
+    border-radius: 50px;
+    text-align: justify;
+    padding-top: 4px;
+    color: #082f4e;
+    /* box-shadow: 4px 4px 5px 0 rgb(50 50 50 / 20%); */
+    z-index: 99999;
+    
+}
