@@ -134,8 +134,8 @@
   </div>
 </section>
 
-
-<div class="slideshow-container">
+<!-- 
+  <div class="slideshow-container">
 
   <div class="mySlides fade">
       <div class="numbertext">1/ 6</div>
@@ -204,11 +204,35 @@
     }
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
-    setTimeout(showSlides, 2000); // Change image every 2 seconds
+    setTimeout(showSlides, 2000);
   }
   </script>
 
+</div>  -->
+
+<div class="container">
+  <div id='vk' class="carousel slide" data-ride='carousel' >
+
+      <ol class="carousel-indicators">
+          <li data-target="#vk" data-slide-to="0" class="active" ></li>
+          <li data-target="#vk" data-slide-to="1"  ></li>
+          <li data-target="#vk" data-slide-to="2" ></li>
+      </ol>
+
+       <div class="carousel-inner">
+           <div  style="width: 200px;height: 300px;" class="carousel-item active"><img src="desserts.jpg" alt=""></div>
+           <div  style="height: 100%;width: 30px;" class="carousel-item "><img src="cream.jpg" alt=""></div>
+           <div style="width: 200px;height: 300px;" class="carousel-item  "><img src="chicken.jpg" alt=""></div>
+       </div>
+
+       <a class="left carousel-control" href="#vk" data-slide="prev"><span class="icon-prev"></span></a>
+       
+       <a class="left carousel-control" href="#vk" data-slide="next"><span class="icon-next"></span></a>
+       
+       </div>
+
 </div>
+
 
 
   
